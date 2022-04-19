@@ -1,0 +1,34 @@
+// .main{
+  // margin-top: 80px;
+  // top: 0;
+// }
+.dashboard{
+  font-size: 33px;
+  font-family: monospace;
+  font-style:normal;
+  font-stretch:extra-expanded;
+  text-align: left;
+  font-weight: 600;
+  color: rgb(5, 5, 42);
+  ;
+}
+
+@media  screen and(max-width :500px) {
+  .cards{
+  display: block !important;
+  margin-left: 20%;
+  margin-top: 100px;
+ } 
+ .dashboard{
+   text-align: center;
+   margin-top: 10px;
+ }
+ .search{
+  align-items: center;
+ }
+}
+@media  screen and(max-width :800px){
+  .cards{
+    margin-left: 25%!important;
+  }
+}

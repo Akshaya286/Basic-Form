@@ -1,0 +1,48 @@
+.sidebar {
+  // margin-top: 70px;
+  padding: 0;
+  width: 230px;
+  background-color: #021E39;
+  height: 100vh!important;
+  
+}
+.sidebar h3:active{
+  display: block;
+  color: rgb(236, 227, 227);
+  background-color: rgb(10, 9, 9);
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 10%;
+}
+.sidebar .active {
+  background-color: rgb(10, 9, 9);
+  color: white;
+}
+.sidebar div{
+  padding: 5%;
+}
+@media screen and (min-width: 767px) {
+  .sidebar{
+    
+    // width: 100%;
+    height: auto;
+    position: relative;
+  } 
+  
+}
+@media screen and (max-width: 500px) {
+  .sidebar{
+    display: none
+  } 
+}
+@media screen and (max-width: 1025px) {
+  .sidebar{
+    width: 230px;
+    height: 130vh;
+  }
+}
+.menu-item{
+ cursor: pointer;
+ text-align: center;
+ margin-top: 30px;
+}

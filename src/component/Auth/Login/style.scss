@@ -1,0 +1,28 @@
+@import "../../../assets/scss/variables.scss";
+
+.bg-image {
+  background-image: url("../../../assets/images/formimg.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.login-heading {
+  color: $primary-color;
+}
+.custom-input{
+  width:100%;
+}
+.center {
+  padding: 20% ;
+  
+}
+
+@media only screen and (max-width: 430px) {
+  .bg-image{
+    display: none;
+  }
+  
+  
+}
+
+
